@@ -1,0 +1,12 @@
+﻿BenchmarkDotNet=v0.13.2, OS=Windows 11 (10.0.22621.900)
+Intel Core i7-8559U CPU 2.70GHz (Coffee Lake), 1 CPU, 8 logical and 4 physical cores
+.NET SDK=6.0.203
+  [Host]     : .NET 6.0.11 (6.0.1122.52304), X64 RyuJIT AVX2
+  DefaultJob : .NET 6.0.11 (6.0.1122.52304), X64 RyuJIT AVX2
+
+
+|     Method |     Mean |   Error |  StdDev |   Median |    Gen0 |   Gen1 | Allocated |
+|----------- |---------:|--------:|--------:|---------:|--------:|-------:|----------:|
+| SolutionA1 | 190.8 us | 3.82 us | 7.62 us | 189.6 us | 52.0020 |      - |  212.8 KB |
+| SolutionA2 | 129.7 us | 2.55 us | 7.11 us | 126.7 us | 17.8223 | 7.3242 |  73.07 KB |
+|  SolutionB | 189.5 us | 3.60 us | 3.19 us | 189.2 us | 52.4902 | 0.2441 |  215.7 KB |
