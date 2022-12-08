@@ -11,3 +11,4 @@ This repository contains my solutions for the [Advent of Code 2022](https://adve
 | Day 5 | .NET         |
 | Day 6 | .NET         |
 | Day 7 | .NET         |
+| Day 8 | .NET         |
